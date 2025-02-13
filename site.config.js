@@ -7,7 +7,7 @@ const CONFIG = {
     bio: "A computer scientist turned to full-stack machine learning (ML) engineer with 5+ years experience in building data-intensive applications, overcoming complex architecture, and scalable issues. Experienced in building data processing pipeline, predictive modeling and business intelligene. Proficient in exploring data analysis in different domain knowledges such as telco, digital finance, etc. Capable of applying MLOps practices in Machine Learning lifecycle such as experiments tracking and versioning, model interpreting and AutoML",
     email: "dungnv0696@gmail.com",
     linkedin: "https://www.linkedin.com/in/dungnv98/",
-    // github: "morethanmin",
+    github: "",
     instagram: "",
   },
   projects: [
