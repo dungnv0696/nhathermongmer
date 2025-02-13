@@ -1,31 +1,31 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
+    name: "Nguyễn Việt Dũng",
+    image: "/avatar.jpg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    role: "Senior Product Manager at Viettel Group | DASCA Principal Data Scientist",
+    bio: "A computer scientist turned to full-stack machine learning (ML) engineer with 5+ years experience in building data-intensive applications, overcoming complex architecture, and scalable issues. Experienced in building data processing pipeline, predictive modeling and business intelligene. Proficient in exploring data analysis in different domain knowledges such as telco, digital finance, etc. Capable of applying MLOps practices in Machine Learning lifecycle such as experiments tracking and versioning, model interpreting and AutoML",
+    email: "dungnv0696@gmail.com",
+    linkedin: "https://www.linkedin.com/in/dungnv98/",
+    // github: "morethanmin",
     instagram: "",
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `nhathermongmer`,
+      href: "https://github.com/dungnv0696/nhathermongmer",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
-    scheme: "dark", // 'light' | 'dark' | 'system'
+    title: "From Zero to Hero",
+    description: "Welcome to my blog",
+    scheme: "light", // 'light' | 'dark' | 'system'
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
+  link: "https://nhathermongmer.vercel.app",
+  since: "", // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
