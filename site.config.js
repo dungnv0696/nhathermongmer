@@ -10,12 +10,12 @@ const CONFIG = {
     github: "",
     instagram: "",
   },
-  // projects: [
-    // {
-      // name: `nhathermongmer`,
-      // href: "https://github.com/dungnv0696/nhathermongmer",
-    // },
-  // ],
+  projects: [
+    {
+      name: `nhathermongmer`,
+      href: "https://github.com/dungnv0696/nhathermongmer",
+    },
+  ],
   // blog setting (required)
   blog: {
     title: "From Zero to Hero",
