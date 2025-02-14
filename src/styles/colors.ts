@@ -1,44 +1,38 @@
 // styles/colors.ts
 
-export type Colors = {
-  blue: string
-  indigo: string
-  purple: string
-  pink: string
-  red: string
-  orange: string
-  yellow: string
-  green: string
-  teal: string
-  cyan: string
-  white: string
-  gray: string
-  grayDark: string
-  primary: string
-  secondary: string
-  success: string
-  info: string
-  warning: string
-  danger: string
-  light: string
-  dark: string
-}
+import {
+  gray,
+  blue,
+  red,
+  green,
+  grayDark,
+  blueDark,
+  redDark,
+  greenDark,
+  indigo,
+  indigoDark,
+} from "@radix-ui/colors"
+
+export type Colors = typeof colors.light & typeof colors.dark
 
 export const colors = {
   light: {
-    blue: "#007bff",
-    indigo: "#6610f2",
+    ...indigo,
+    ...gray,
+    ...blue,
+    ...red,
+    ...green,
+
+    // Bổ sung các màu từ CSS
     purple: "#6f42c1",
     pink: "#e83e8c",
-    red: "#dc3545",
     orange: "#fd7e14",
     yellow: "#ffc107",
-    green: "#28a745",
     teal: "#20c997",
     cyan: "#17a2b8",
     white: "#fff",
-    gray: "#6c757d",
     grayDark: "#343a40",
+
     primary: "#007bff",
     secondary: "#6c757d",
     success: "#28a745",
@@ -48,21 +42,24 @@ export const colors = {
     light: "#f8f9fa",
     dark: "#343a40",
   },
+
   dark: {
-    // Bạn có thể tùy chỉnh lại các màu cho dark mode nếu cần.
-    blue: "#007bff",
-    indigo: "#6610f2",
+    ...indigoDark,
+    ...grayDark,
+    ...blueDark,
+    ...redDark,
+    ...greenDark,
+
+    // Bổ sung các màu từ CSS (cho dark theme)
     purple: "#6f42c1",
     pink: "#e83e8c",
-    red: "#dc3545",
     orange: "#fd7e14",
     yellow: "#ffc107",
-    green: "#28a745",
     teal: "#20c997",
     cyan: "#17a2b8",
     white: "#fff",
-    gray: "#6c757d",
     grayDark: "#343a40",
+
     primary: "#007bff",
     secondary: "#6c757d",
     success: "#28a745",
