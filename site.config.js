@@ -4,7 +4,7 @@ const CONFIG = {
     name: "Nguyễn Việt Dũng",
     image: "/avatar.jpg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Senior Product Manager at Viettel Group | DASCA Principal Data Scientist",
-    bio: "A computer scientist turned to full-stack machine learning (ML) engineer with 5+ years experience in building data-intensive applications, overcoming complex architecture, and scalable issues. Experienced in building data processing pipeline, predictive modeling and business intelligene. Proficient in exploring data analysis in different domain knowledges such as telco, digital finance, etc. Capable of applying MLOps practices in Machine Learning lifecycle such as experiments tracking and versioning, model interpreting and AutoML",
+    bio: "Enthralled by algorithms, data, and the mysteries of the universe",
     email: "dungnv0696@gmail.com",
     linkedin: "dungnv98",
     github: "",

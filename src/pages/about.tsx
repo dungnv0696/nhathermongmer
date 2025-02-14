@@ -201,7 +201,7 @@ const AboutPage: React.FC = () => {
         </h2>
       </PageTitle>
       <Row>
-        <Column basis="66.67%">
+        <Column basis="65%">
           <Paragraph>
             A computer scientist turned to full-stack machine learning (ML)
             engineer with 5+ years experience in building data-intensive
@@ -214,7 +214,7 @@ const AboutPage: React.FC = () => {
             interpreting and AutoML.
           </Paragraph>
         </Column>
-        <Column basis="33.33%">
+        <Column basis="30%">
           <InfoList>
             <ul>
               <li>
@@ -250,7 +250,7 @@ const AboutPage: React.FC = () => {
       </PageTitle> */}
       <Row>
         {/* Left Column: Education & Experience */}
-        <Column basis="66.67%">
+        <Column basis="65%">
           {/* Education */}
           <BlockTitle>
             <h3>Education</h3> 
@@ -374,7 +374,7 @@ const AboutPage: React.FC = () => {
         </Column>
 
         {/* Right Column: Skills & Certificates */}
-        <Column basis="33.33%">
+        <Column basis="30%">
           {/* Big Data Stack */}
           <BlockTitle>
             <h3>
