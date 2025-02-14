@@ -26,14 +26,14 @@ const PageTitle = styled.div`
 const Row = styled.div`
   display: flex;
   flex-wrap: wrap;
-  margin: -0.5rem;
+  margin: -1.5rem;
 `
 
 interface ColumnProps {
   basis: string
 }
 const Column = styled.div<ColumnProps>`
-  padding: 0.5rem;
+  padding: 1.5rem;
   flex: 0 0 ${({ basis }) => basis};
   max-width: ${({ basis }) => basis};
 
