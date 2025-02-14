@@ -1,3 +1,5 @@
+// styles/theme.ts
+
 import { Theme } from "@emotion/react"
 import { Colors, colors } from "./colors"
 import { variables } from "./variables"

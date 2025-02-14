@@ -1,3 +1,5 @@
-import { variables } from './variables'
+// styles/media.ts
 
-export const respondMobile = `@media (max-width: ${variables.breakpoint}px)`
+import { variables } from "./variables"
+
+export const respondMobile = `@media (max-width: ${variables.breakpointMd}px)`
