@@ -3,7 +3,7 @@ import styled from "@emotion/styled"
 
 /* Main container */
 const AboutWrapper = styled.div`
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 2rem auto;
   padding: 0 1rem;
   line-height: 1.6;
@@ -26,14 +26,14 @@ const PageTitle = styled.div`
 const Row = styled.div`
   display: flex;
   flex-wrap: wrap;
-  margin: -1.5rem;
+  margin: -2rem;
 `
 
 interface ColumnProps {
   basis: string
 }
 const Column = styled.div<ColumnProps>`
-  padding: 1.5rem;
+  padding: 2rem;
   flex: 0 0 ${({ basis }) => basis};
   max-width: ${({ basis }) => basis};
 
