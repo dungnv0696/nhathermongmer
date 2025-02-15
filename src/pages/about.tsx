@@ -26,7 +26,7 @@ const PageTitle = styled.div`
 const Row = styled.div`
   display: flex;
   flex-wrap: wrap;
-  margin: -2rem;
+  margin: -0.5rem;
 `
 
 interface ColumnProps {
@@ -235,7 +235,7 @@ const AboutPage: React.FC = () => {
               </li>
               <li>
                 <span className="title">Phone</span>
-                <span className="value">(+84) 798 968 986</span>
+                <span className="value">(+84) 333 801 208</span>
               </li>
             </ul>
           </InfoList>
@@ -438,11 +438,86 @@ const AboutPage: React.FC = () => {
         </Column>
       </Row>
       <Row>
+
+      <Column basis="50%">
+          <CertificateItem>
+            <CertiLogo>
+              <img
+                src="https://www.credbadge.com/Content/Images/logos/dasca/pds.png"
+                alt="Dasca logo"
+              />
+            </CertiLogo>
+            <CertiContent>
+              <div className="certi-title">
+                <h4>Principal Data Scientist (PDS™)</h4>
+              </div>
+              <div className="certi-company">
+                <span>Data Science Council of America</span>
+              </div>
+              <div className="certi-date">
+                <span>Dec 2024 - Dec 2029</span>
+              </div>
+              <div className="certi-id">
+                <span>Credential ID 5220675111</span>
+              </div>
+              <div>
+                <Button
+                  type="button"
+                  onClick={() =>
+                    window.open(
+                      "https://www.credbadge.com/credit/certified/5220675111/"
+                    )
+                  }
+                >
+                  Show credential
+                </Button>
+              </div>
+            </CertiContent>
+          </CertificateItem>
+        </Column>
+
+      <Column basis="50%">
+          <CertificateItem>
+            <CertiLogo>
+              <img
+                src="https://www.credbadge.com/Content/Images/logos/dasca/sds.png"
+                alt="Dasca logo"
+              />
+            </CertiLogo>
+            <CertiContent>
+              <div className="certi-title">
+                <h4>Senior Data Scientist (SDS™)</h4>
+              </div>
+              <div className="certi-company">
+                <span>Data Science Council of America</span>
+              </div>
+              <div className="certi-date">
+                <span>Dec 2022 - Dec 2027</span>
+              </div>
+              <div className="certi-id">
+                <span>Credential ID 9962614239</span>
+              </div>
+              <div>
+                <Button
+                  type="button"
+                  onClick={() =>
+                    window.open(
+                      "https://www.credbadge.com/credit/certified/5220675111/"
+                    )
+                  }
+                >
+                  Show credential
+                </Button>
+              </div>
+            </CertiContent>
+          </CertificateItem>
+        </Column>
+
         <Column basis="50%">
           <CertificateItem>
             <CertiLogo>
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/480px-Google_%22G%22_Logo.svg.png"
+                src="https://www.gstatic.com/devrel-devsite/prod/v38a693baeb774512feb42f10aac8f755d8791ed41119b5be7a531f8e16f8279f/tensorflow/images/lockup.svg"
                 alt="Google logo"
               />
             </CertiLogo>
@@ -465,43 +540,6 @@ const AboutPage: React.FC = () => {
                   onClick={() =>
                     window.open(
                       "https://www.credential.net/d3c3601b-22f0-426a-8ab8-cdb2d46876e6#gs.gc3840"
-                    )
-                  }
-                >
-                  Show credential
-                </Button>
-              </div>
-            </CertiContent>
-          </CertificateItem>
-        </Column>
-
-        <Column basis="50%">
-          <CertificateItem>
-            <CertiLogo>
-              <img
-                src="https://romebusinessschool.com/wp-content/uploads/2022/10/dasca-logo-1-1.png"
-                alt="Dasca logo"
-              />
-            </CertiLogo>
-            <CertiContent>
-              <div className="certi-title">
-                <h4>Senior Data Scientist (SDS™)</h4>
-              </div>
-              <div className="certi-company">
-                <span>Data Science Council of America</span>
-              </div>
-              <div className="certi-date">
-                <span>Dec 2022 - Dec 2027</span>
-              </div>
-              <div className="certi-id">
-                <span>Credential ID 9962614239</span>
-              </div>
-              <div>
-                <Button
-                  type="button"
-                  onClick={() =>
-                    window.open(
-                      "https://www.credbadge.com/credit/certified/9962614239/"
                     )
                   }
                 >
@@ -559,11 +597,120 @@ const AboutPage: React.FC = () => {
         </Column>
       </Row>
       <Row>
+
+      <Column basis="50%">
+          <CertificateItem>
+            <CertiLogo>
+              <img
+                src="http://giaithuong.makeinvietnam.mic.gov.vn/uploads/up/makeinvietnam/hang_muc/2024/08/14/23/07/xuatsac.png"
+                alt="Award logo"
+              />
+            </CertiLogo>
+            <CertiContent>
+              <div className="certi-title">
+                <h4>
+                  Top 10 - New Digital Technology Product - Make In Vietnam Awards 2024
+                </h4>
+              </div>
+              <div className="certi-company">
+                <span>Issued by Ministry of Information and Communications</span>
+              </div>
+              <div className="certi-date">
+                <span>January 2025</span>
+              </div>
+              <div className="certi-id">
+                <span>Viettel Machine Learning Platform</span>
+              </div>
+            </CertiContent>
+          </CertificateItem>
+        </Column>
+
         <Column basis="50%">
           <CertificateItem>
             <CertiLogo>
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKZJw016LJUYwIkwt_ziLDxDQGbgcL0MqdZQ&s"
+                src="https://totaltele.com/wp-content/uploads/2022/05/TT_logo.png"
+                alt="Award logo"
+              />
+            </CertiLogo>
+            <CertiContent>
+              <div className="certi-title">
+                <h4>
+                  Shortlist - The Future Award - World Communication Awards 2024
+                </h4>
+              </div>
+              <div className="certi-company">
+                <span>Issued by Total Telecom</span>
+              </div>
+              <div className="certi-date">
+                <span>December 2024</span>
+              </div>
+              <div className="certi-id">
+                <span>Viettel Machine Learning Platform</span>
+              </div>
+            </CertiContent>
+          </CertificateItem>
+        </Column>
+
+        <Column basis="50%">
+          <CertificateItem>
+            <CertiLogo>
+              <img
+                src="https://static.ladipage.net/61359c0acd58c80012cdf933/thiet-ke-chua-co-ten-2-20231012125128-mau6d.png"
+                alt="Award logo"
+              />
+            </CertiLogo>
+            <CertiContent>
+              <div className="certi-title">
+                <h4>
+                  Potential AI Solution - Vietnam Innovation Challenge Awards 2024
+                </h4>
+              </div>
+              <div className="certi-company">
+                <span>Issued by National Innovation Center (NIC) and Meta Corporation</span>
+              </div>
+              <div className="certi-date">
+                <span>October 2024</span>
+              </div>
+              <div className="certi-id">
+                <span>Viettel Machine Learning Platform</span>
+              </div>
+            </CertiContent>
+          </CertificateItem>
+        </Column>
+
+        <Column basis="50%">
+          <CertificateItem>
+            <CertiLogo>
+              <img
+                src="https://blog.stevieawards.com/hubfs/IBA24/IBA24_Silver_Winner.png"
+                alt="Award logo"
+              />
+            </CertiLogo>
+            <CertiContent>
+              <div className="certi-title">
+                <h4>
+                  Silver Winner - Data Tools & Platforms - International Business Awards 2024
+                </h4>
+              </div>
+              <div className="certi-company">
+                <span>Issued by The Stevie Awards</span>
+              </div>
+              <div className="certi-date">
+                <span>August 2024</span>
+              </div>
+              <div className="certi-id">
+                <span>Viettel Recommendation Platform</span>
+              </div>
+            </CertiContent>
+          </CertificateItem>
+        </Column>
+
+        <Column basis="50%">
+          <CertificateItem>
+            <CertiLogo>
+              <img
+                src="www.tmforum.org/wp-content/uploads/2022/09/tmf-logo-2018.svg"
                 alt="Award logo"
               />
             </CertiLogo>
@@ -590,7 +737,7 @@ const AboutPage: React.FC = () => {
           <CertificateItem>
             <CertiLogo>
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKZJw016LJUYwIkwt_ziLDxDQGbgcL0MqdZQ&s"
+                src="https://blog.stevieawards.com/hubfs/IBA23/IBA23_Silver_Winner.png"
                 alt="Award logo"
               />
             </CertiLogo>
@@ -734,47 +881,30 @@ const AboutPage: React.FC = () => {
           <CertificateItem>
             <CertiLogo>
               <img
-                src="https://media.licdn.com/dms/image/C560BAQHWPnNXS4EVZQ/company-logo_100_100/0/1622531694279?e=1684972800&v=beta&t=fXiXk1BDVPqZzUkZs82qqArN1xmJqKd-V87csZkBIdY"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFf_gfrXDExCO4VEww3h5M-oa8q0YMeySM9Q&s"
                 alt="Viettel Group logo"
               />
             </CertiLogo>
             <CertiContent>
               <div className="certi-title">
-                <h4>Mentor of Viettel Digital Talent Program 2022</h4>
+                <h4>Mentor of Viettel Digital Talent Program</h4>
               </div>
               <div className="certi-company">
                 <span>Viettel Group</span>
               </div>
               <div className="certi-date">
-                <span>Mar 2022 - Oct 2022</span>
+                <span>Mar 2022 - Now</span>
               </div>
               <div className="certi-id">
-                <span>Data Science and Artificial Intelligence</span>
-              </div>
-            </CertiContent>
-          </CertificateItem>
-        </Column>
-
-        <Column basis="50%">
-          <CertificateItem>
-            <CertiLogo>
-              <img
-                src="https://media.licdn.com/dms/image/C560BAQHWPnNXS4EVZQ/company-logo_100_100/0/1622531694279?e=1684972800&v=beta&t=fXiXk1BDVPqZzUkZs82qqArN1xmJqKd-V87csZkBIdY"
-                alt="Viettel Group logo"
-              />
-            </CertiLogo>
-            <CertiContent>
-              <div className="certi-title">
-                <h4>Mentor of Viettel Digital Talent Program 2023</h4>
-              </div>
-              <div className="certi-company">
-                <span>Viettel Group</span>
-              </div>
-              <div className="certi-date">
-                <span>Mar 2023 - Present</span>
-              </div>
-              <div className="certi-id">
-                <span>Software Engineer and Data Engineer</span>
+                <span>I am a mentor in the anual Viettel Digital Talents program, covering multiple fields with the following key topics:
+1. Data Science & Artificial Intelligence:
+- "Talk to Data" Chatbot: A conversational AI chatbot that enables users to query and interact with data using natural language, improving accessibility and decision-making.
+- Multi-AI Agent for Code Generation: A framework utilizing multiple AI models to automate and enhance the process of code generation, making software development more efficient and intelligent.
+2. Data Engineering:
+- Image2Image Search Engine: A data engineering solution for creating a search engine that retrieves images based on content similarity or transformation from a given query image, leveraging computer vision techniques.
+3. Software Engineering:
+- Kubernetes Operator Framework: A platform to automate the management of complex applications within Kubernetes clusters, enabling more efficient deployment, scaling, and operation of containerized applications.
+- Internal Development Platform: An integrated platform designed to streamline internal software development, providing developers with tools and workflows that optimize productivity and software management.</span>
               </div>
             </CertiContent>
           </CertificateItem>
