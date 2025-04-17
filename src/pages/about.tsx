@@ -895,8 +895,7 @@ const AboutPage: React.FC = () => {
               <RightPart>
               <h4 className="item-title">Head of Data Engineering Track - Viettel Digital Talent Program</h4>
               <p>
-              Led the Data Engineering track in the annual Viettel Digital Talents Program, driving technical excellence and mentoring the next generation of data engineers in a fast-paced, high-impact environment.
-              </p>
+              Coordinated the Data Engineering stream of the Viettel Digital Talents Program, contributing to curriculum design, technical workshops, and participant mentoring.              </p>
               </RightPart>
             </TimelineItem>
 
