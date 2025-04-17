@@ -293,22 +293,24 @@ const AboutPage: React.FC = () => {
               <Divider />
               <RightPart>
               <h4 className="item-title">Senior Machine Learning Engineer</h4>
-            <ul>
-              <li>
-                <strong>Co-founder & Product/Tech Owner – Viettel Machine Learning Platform.</strong><br />
-                Co-founded and led the development of a no-code/low-code AutoML solution designed to streamline the full machine learning lifecycle.<br />
-                Defined and drove both product vision and technical architecture.<br />
-                Led a cross-functional team of 10+ engineers and data scientists.<br />
-                Designed features supporting tabular prediction, clustering, time-series forecasting, and recommendation systems.<br />
-                Adopted by 100+ internal users, reducing up to 75% of the effort in developing and optimizing ML models.<br />
-                Now commercialized and used by various enterprises, government agencies, and ministries – contributing to national-level AI adoption.
-              </li>
-              <li>
-                Researched and developed MLOps maturity model
-              </li>
-              <li>
-                Co-founded and architected Viettel Recommendation Platform
-              </li>
+              <ul>
+                <li>
+                  <strong>Co-founder & Product/Tech Owner – Viettel Machine Learning Platform</strong><br />
+                  Co-founded and led the development of a no-code/low-code AutoML platform that streamlines the full machine learning lifecycle.
+                  <ul>
+                    <li>Defined and executed both product vision and technical architecture</li>
+                    <li>Led a team of 10+ engineers and data scientists</li>
+                    <li>Built core features: tabular prediction, clustering, time-series forecasting, recommendation systems</li>
+                    <li>Adopted by 100+ internal users, reducing 75% of ML development and optimization efforts</li>
+                    <li>Commercialized and deployed across enterprises, ministries, and government agencies</li>
+                  </ul>
+                </li>
+                <li>
+                  Researched and developed MLOps maturity model
+                </li>
+                <li>
+                  Co-founded and architected Viettel Recommendation Platform
+                </li>
             </ul>
               </RightPart>
             </TimelineItem>
@@ -899,14 +901,24 @@ const AboutPage: React.FC = () => {
                 <span>Mar 2022 - Now</span>
               </div>
               <div className="certi-id">
-                <span>I am a mentor in the anual Viettel Digital Talents program, covering multiple fields with the following key topics:
-1. Data Science & Artificial Intelligence:
-- GenAI Chatbot: A conversational AI chatbot that enables users to query and interact with data using natural language, improving accessibility and decision-making.
-- Multi-AI Agent for Code Generation: A framework utilizing multiple AI models to automate and enhance the process of code generation, making software development more efficient and intelligent.
-- Image2Image Search Engine: A data engineering solution for creating a search engine that retrieves images based on content similarity or transformation from a given query image, leveraging computer vision techniques.
-2. Software Engineering:
-- Kubernetes Operator Framework: A platform to automate the management of complex applications within Kubernetes clusters, enabling more efficient deployment, scaling, and operation of containerized applications.
-- Internal Development Platform: An integrated platform designed to streamline internal software development, providing developers with tools and workflows that optimize productivity and software management.</span>
+                <p>Mentored participants in the annual Viettel Digital Talents program, covering multiple fields in technology and innovation. Key topics included:</p>
+                <ul>
+                  <li>
+                    <strong>Data Science & Artificial Intelligence:</strong>
+                    <ul>
+                      <li><strong>GenAI Chatbot:</strong> Developed a conversational AI chatbot that enables users to query and interact with data using natural language, improving accessibility and decision-making.</li>
+                      <li><strong>Multi-AI Agent for Code Generation:</strong> Designed a framework leveraging multiple AI models to automate and enhance code generation, streamlining software development processes.</li>
+                      <li><strong>Image2Image Search Engine:</strong> Created a data engineering solution for an image search engine based on content similarity or transformation, utilizing advanced computer vision techniques.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Software Engineering:</strong>
+                    <ul>
+                      <li><strong>Kubernetes Operator Framework:</strong> Led the design of a platform to automate the management of applications within Kubernetes clusters, enhancing deployment, scaling, and operation of containerized applications.</li>
+                      <li><strong>Internal Development Platform:</strong> Developed an integrated platform that streamlines internal software development, providing tools and workflows to improve developer productivity and software management.</li>
+                    </ul>
+                  </li>
+                </ul>
               </div>
             </CertiContent>
           </CertificateItem>
