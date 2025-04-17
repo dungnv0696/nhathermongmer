@@ -715,7 +715,7 @@ const AboutPage: React.FC = () => {
           <CertificateItem>
             <CertiLogo>
               <img
-                src="www.tmforum.org/wp-content/uploads/2022/09/tmf-logo-2018.svg"
+                src="https://www.tmforum.org/wp-content/uploads/2022/09/tmf-logo-2018.svg"
                 alt="Award logo"
               />
             </CertiLogo>
@@ -819,7 +819,7 @@ const AboutPage: React.FC = () => {
           <CertificateItem>
             <CertiLogo>
               <img
-                src="https://vda.com.vn/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimage%2Flogo.5dc17852cc7eff5a1111162fe698d5e3.png&w=256&q=75"
+                src="https://vda.com.vn/images/medal-3.png?id=d3313ae3c2aa1a92a2b85a63edfad110"
                 alt="Award logo"
               />
             </CertiLogo>
@@ -882,46 +882,57 @@ const AboutPage: React.FC = () => {
         </Column>
       </Row>
       <Row>
-        <Column basis="50%">
-          <CertificateItem>
-            <CertiLogo>
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFf_gfrXDExCO4VEww3h5M-oa8q0YMeySM9Q&s"
-                alt="Viettel Group logo"
-              />
-            </CertiLogo>
-            <CertiContent>
-              <div className="certi-title">
-                <h4>Mentor of Viettel Digital Talent Program</h4>
-              </div>
-              <div className="certi-company">
-                <span>Viettel Group</span>
-              </div>
-              <div className="certi-date">
-                <span>Mar 2022 - Now</span>
-              </div>
-              <div className="certi-id">
-                <p>Mentored participants in the annual Viettel Digital Talents program, covering multiple fields in technology and innovation. Key topics included:</p>
-                <ul>
-                  <li>
-                    <strong>Data Science & Artificial Intelligence:</strong>
-                    <ul>
-                      <li><strong>GenAI Chatbot:</strong> Developed a conversational AI chatbot that enables users to query and interact with data using natural language, improving accessibility and decision-making.</li>
-                      <li><strong>Multi-AI Agent for Code Generation:</strong> Designed a framework leveraging multiple AI models to automate and enhance code generation, streamlining software development processes.</li>
-                      <li><strong>Image2Image Search Engine:</strong> Created a data engineering solution for an image search engine based on content similarity or transformation, utilizing advanced computer vision techniques.</li>
-                    </ul>
-                  </li>
-                  <li>
-                    <strong>Software Engineering:</strong>
-                    <ul>
-                      <li><strong>Kubernetes Operator Framework:</strong> Led the design of a platform to automate the management of applications within Kubernetes clusters, enhancing deployment, scaling, and operation of containerized applications.</li>
-                      <li><strong>Internal Development Platform:</strong> Developed an integrated platform that streamlines internal software development, providing tools and workflows to improve developer productivity and software management.</li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </CertiContent>
-          </CertificateItem>
+        <Column basis="100%">
+        <Timeline>
+        <TimelineItem>
+              <LeftPart>
+                <h5 className="item-period">Mar 2025 — Present</h5>
+                <span className="item-company">
+                  Viettel Group
+                </span>
+              </LeftPart>
+              <Divider />
+              <RightPart>
+              <h4 className="item-title">Head of Data Engineering Track - Viettel Digital Talent Program</h4>
+              <p>
+              Led the Data Engineering track in the annual Viettel Digital Talents Program, driving technical excellence and mentoring the next generation of data engineers in a fast-paced, high-impact environment.
+              </p>
+              </RightPart>
+            </TimelineItem>
+
+            <TimelineItem>
+              <LeftPart>
+                <h5 className="item-period">Mar 2022 — Mar 2025</h5>
+                <span className="item-company">
+                  Viettel Group
+                </span>
+              </LeftPart>
+              <Divider />
+              <RightPart>
+              <h4 className="item-title">Mentor of Viettel Digital Talent Program</h4>
+              <p className="item-description">
+                Mentored participants in the annual Viettel Digital Talents program, covering multiple fields in technology and innovation. Key topics included:
+              </p>
+              <ul>
+                <li>
+                  <strong>Data Science & Artificial Intelligence:</strong>
+                  <ul>
+                    <li><strong>GenAI Chatbot:</strong> Developed a conversational AI chatbot that enables users to query and interact with data using natural language, improving accessibility and decision-making.</li>
+                    <li><strong>Multi-AI Agent for Code Generation:</strong> Designed a framework leveraging multiple AI models to automate and enhance code generation, streamlining software development processes.</li>
+                    <li><strong>Image2Image Search Engine:</strong> Created a data engineering solution for an image search engine based on content similarity or transformation, utilizing advanced computer vision techniques.</li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>Software Engineering:</strong>
+                  <ul>
+                    <li><strong>Kubernetes Operator Framework:</strong> Led the design of a platform to automate the management of applications within Kubernetes clusters, enhancing deployment, scaling, and operation of containerized applications.</li>
+                    <li><strong>Internal Development Platform:</strong> Developed an integrated platform that streamlines internal software development, providing tools and workflows to improve developer productivity and software management.</li>
+                  </ul>
+                </li>
+              </ul>
+              </RightPart>
+            </TimelineItem>
+            </Timeline>
         </Column>
       </Row>
     </AboutWrapper>
