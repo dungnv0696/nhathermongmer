@@ -292,21 +292,24 @@ const AboutPage: React.FC = () => {
               </LeftPart>
               <Divider />
               <RightPart>
-                <h4 className="item-title">Senior Machine Learning Engineer</h4>
-                <ul>
-                  <li>
-                    Co-founded and developed Viettel Machine Learning Platform,
-                    a no-code/low-code solution that offers comprehensive
-                    capabilities for developing, optimizing, deploying,
-                    managing, and monitoring machine learning workflows based on
-                    AutoML. The platform supports tabular prediction, clustering,
-                    time-series forecasting, and recommendation systems.
-                  </li>
-                  <li>Researched and developed MLOps maturity model</li>
-                  <li>
-                    Co-founded and architected Viettel Recommendation Platform
-                  </li>
-                </ul>
+              <h4 className="item-title">Senior Machine Learning Engineer</h4>
+              <ul>
+                <li>
+                  <strong>Co-founder & Product/Tech Owner – Viettel Machine Learning Platform.</strong><br />
+                  Co-founded and led the development of a no-code/low-code AutoML solution designed to streamline the full machine learning lifecycle.<br />
+                  Defined and drove both product vision and technical architecture.<br />
+                  Led a cross-functional team of 10+ engineers and data scientists.<br />
+                  Designed features supporting tabular prediction, clustering, time-series forecasting, and recommendation systems.<br />
+                  Adopted by 100+ internal users, reducing up to 75% of the effort in developing and optimizing ML models.<br />
+                  Now commercialized and used by various enterprises, government agencies, and ministries – contributing to national-level AI adoption.
+                </li>
+                <li>
+                  Researched and developed MLOps maturity model
+                </li>
+                <li>
+                  Co-founded and architected Viettel Recommendation Platform
+                </li>
+              </ul>
               </RightPart>
             </TimelineItem>
 
@@ -900,9 +903,8 @@ const AboutPage: React.FC = () => {
 1. Data Science & Artificial Intelligence:
 - "Talk to Data" Chatbot: A conversational AI chatbot that enables users to query and interact with data using natural language, improving accessibility and decision-making.
 - Multi-AI Agent for Code Generation: A framework utilizing multiple AI models to automate and enhance the process of code generation, making software development more efficient and intelligent.
-2. Data Engineering:
 - Image2Image Search Engine: A data engineering solution for creating a search engine that retrieves images based on content similarity or transformation from a given query image, leveraging computer vision techniques.
-3. Software Engineering:
+2. Software Engineering:
 - Kubernetes Operator Framework: A platform to automate the management of complex applications within Kubernetes clusters, enabling more efficient deployment, scaling, and operation of containerized applications.
 - Internal Development Platform: An integrated platform designed to streamline internal software development, providing developers with tools and workflows that optimize productivity and software management.</span>
               </div>
